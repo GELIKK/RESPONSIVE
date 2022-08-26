@@ -1,0 +1,141 @@
+@media screen and (max-width: 1050px) {
+  main .portfolio .bottom article .overlay h3 {
+    font-size: 30px;
+  }
+  main .book {
+    background-position: 10%;
+  }
+  main .book article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .book article aside img {
+    width: 100%;
+  }
+  main .book article aside p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about div img {
+    width: 100%;
+    height: 800px;
+  }
+  main .book {
+    width: 100%;
+  }
+  main .book article {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .book article {
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 935px) {
+  main .book article aside p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  main .banner .overlay div h1 {
+    font-size: 45px;
+  }
+  main .banner {
+    background-position: 20%;
+  }
+  .about div img {
+    width: 100%;
+    height: 750px;
+  }
+  main .book article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .book article aside {
+    width: 100%;
+    height: 300pxpx;
+    background-color: whitesmoke;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 818px) {
+  main .about {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .portfolio .bottom {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  main .portfolio .bottom article {
+    height: 300px;
+  }
+  .about div img {
+    width: 100%;
+    height: 700px;
+  }
+  main .about {
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main .banner .overlay div h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  main .banner .overlay div h3 {
+    font-size: 18px;
+    letter-spacing: 0.4em;
+  }
+  main .banner {
+    background-position: 30%;
+  }
+}
+@media screen and (max-width: 591px) {
+  main .about {
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 497px) {
+  main .about {
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 389px) {
+  main .about {
+    height: 1400px;
+  }
+}
+@media screen and (max-width: 365px) {
+  main .about {
+    height: 1500px;
+  }
+}
+@media screen and (max-width: 370px) {
+  main .about {
+    height: 1500px;
+  }
+}
+@media screen and (max-width: 300px) {
+  main .about {
+    height: 1600px;
+  }
+}
+@media screen and (max-width: 283px) {
+  main .about {
+    height: 1800px;
+  }
+}
+@media screen and (max-width: 250px) {
+  main .about {
+    height: 1900px;
+  }
+}
