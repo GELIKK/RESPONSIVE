@@ -199,6 +199,7 @@ h1 {
   height: 1000px;
   margin: 20px;
   padding: 20px;
+  margin-top: 80px;
 
   display: flex;
   flex-wrap: wrap;
