@@ -1,115 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson 13</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/af6bc85f41.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
-    <header class="flex-center">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">J.Allisa</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./porftolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Books</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cllient album.html">Client albums</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
     <main>
-      <section class="banner">
-        <div class="overlay flex-center">
-          <div>
-            <h1>THE ART OF FOOD</h1>
-            <h3>PHOTOGRAPHY</h3>
-            <div class="flex-center">
-              <button>View more</button>
+      <section>
+        <header>
+          <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkBtn">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <label class="logo"
+              ><a class="ACTIVE" href="index.html"
+                ><aside class="img">
+                  <img src="./img/all.png" alt="" /></aside></a
+            ></label>
+            <ul>
+              <li><a href="film.html">ფილმები</a></li>
+              <li><a href="serial.html">სერიალები</a></li>
+              <li><a href="animation.html">ანიმაციები</a></li>
+              <li><a href="contact.html">შოუები</a></li>
+              <div class="facebook">
+                <li>
+                  <a href="https://www.facebook.com/gega.doillon3532/"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </header>
+        <input class="search" type="serach" placeholder="ძიება" />
+        <aside class="carusel">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  style="height: 500px"
+                  src="./img/dr.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  style="height: 500px"
+                  src="./img/viking.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="./img/spar.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
+        </aside>
+        <article>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/venom.jfif"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/fighting club.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/evro.jpg.opdownload"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/daffy.jpg.opdownload"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/bru.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/ch.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/hom.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/grow.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 320px"
+              src="./img/wim.jpg"
+              alt=""
+            />
+          </div>
+        </article>
+
+        <footer>
+          <p>
+            @ 2022 ამ საიტზე განთავსებულია დაკარგული, მაგრამ <br />
+            არ დავიწყებული ფილმები, ანიმაციები და მეტნაკლებად სერიალები.
+            <br />
+            <span>
+              <img
+                style="width: 130px; margin-top: 10px"
+                src="./img/all.png"
+                alt=""
+            /></span>
+          </p>
+        </footer>
       </section>
     </main>
-    <footer class="flex-center">
-      <section>
-        <nav>
-          <ul class="flex-center">
-            <li>
-              <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
-        </nav>
-        <aside class="flex-center">
-          <p>© 2023 by The Art of Food. Proudly created with FE-51</p>
-        </aside>
-      </section>
-    </footer>
-    <div class="chat flex-center">
-      <i class="fa-solid fa-comment-dots"></i>
-    </div>
   </body>
 </html>

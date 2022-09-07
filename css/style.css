@@ -1,0 +1,205 @@
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/17/71/9b/17719b0a6e4895f78f15ed591fab51cb.jpg");
+}
+h2 {
+  color: white;
+}
+.active {
+  color: yellow;
+}
+
+main section {
+  width: 90%;
+  height: 2300px;
+}
+header {
+  width: 100%;
+  height: 80px;
+}
+header nav {
+  width: 100%;
+  height: 109px;
+}
+header nav .logo {
+  margin-top: 10px;
+}
+header nav .logo a {
+  font-size: 27px;
+  color: white;
+
+  text-decoration: none;
+}
+header nav ul {
+  float: right;
+  margin-top: 20px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+header nav ul li a {
+  color: lightblue;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+}
+header nav ul li :hover {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: aquamarine;
+}
+header nav .checkBtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-right: 40px;
+  display: none;
+}
+header nav #check {
+  display: none;
+}
+
+main section footer {
+  color: white;
+  font-size: 14px;
+  margin-top: 130px;
+  width: 100%;
+}
+main section footer p {
+  font-size: 18px;
+  text-align: center;
+}
+main section footer p span {
+  font-size: 30px;
+  text-align: center;
+  color: aqua;
+}
+.img {
+  width: 200px;
+  height: 60px;
+}
+.img img {
+  width: 200px;
+  height: 60px;
+}
+.search {
+  width: 90%;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}
+.search::placeholder {
+  text-align: center;
+}
+.carusel {
+  margin-top: 40px;
+  width: 80%;
+  height: 20px;
+  margin-left: 80px;
+}
+main article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 600px;
+}
+main article div {
+  width: 250px;
+  height: 320px;
+
+  margin: 30px;
+}
+/* filmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.filmismaini {
+  width: 100%;
+}
+.filmismaini .films {
+  width: 90%;
+  height: 840px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+.filmismaini .films article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+.filmismaini .films article div {
+  width: 250px;
+  height: 320px;
+}
+.comedy {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://static01.nyt.com/images/2017/11/26/arts/26comedycrash-illo/26comedycrash-illo-jumbo.gif");
+}
+
+.tears {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://c.tenor.com/g0OM-5HDfzUAAAAM/crying-eye.gif");
+}
+.love {
+  position: relative;
+  background-image: url("https://i.pinimg.com/originals/10/d3/c6/10d3c61b34328ff0a2720b841f4be223.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transform: scale(1);
+}
+.overlay-1:hover {
+  opacity: 0;
+  transition: 0.8s;
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+.overlay-1 p {
+  color: aquamarine;
+  font-size: 40px;
+}
+/* comedy filmsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+.comedy-films {
+  width: 90%;
+  height: 1000px;
+  margin: 20px;
+  padding: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
